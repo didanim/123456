@@ -1,3 +1,19 @@
+/*History*/
+.widget-history ul{list-style:none;padding:0;margin:0;}
+.widget-history li{padding:0;border-bottom:1px solid rgb(236,236,236);position:relative;}
+.widget-history a{padding:7px 15px;display:block;line-height:20px;transition:.2s linear;font-size:13px;}
+.widget-history li:hover a{color:white;}
+.widget-history li:hover{background-color:#366ad3;transition:.2s linear;}
+#History-Chapter .widget-history a{width:100%;}
+.widget-history li{border:1px solid #ececec;margin-top:3px;margin-right:3px;border-radius:5px;}
+.recently-note{float:right;top:5px;right:5px;background-color:#b4183d;color:#fff;padding:3px 6px;font-size:12px;border-radius:3px;}
+.paginationy{margin-top:20px;display:flex;align-items:center;justify-content:center;}
+.paginationy{margin-top:20px;display:flex;align-items:center;justify-content:center;border-top:1px solid #eceff5;padding:10px 0;}
+.paginationy button{height:35px;font-size:13px;width:70px;padding:8px 12px;border:1px solid #ccc;background-color:#f9f9f9;cursor:pointer;}
+.paginationy button:first-child{border-radius:100px 3px 3px 100px;}
+.paginationy button:last-child{border-radius:3px 100px 100px 3px;}
+.paginationy button:hover{background-color:#eef3f8;}
+span#currentPage1,span#currentPage2{height:35px;font-size:13px;padding:6px 12px;border-top:1px solid #ccc;border-bottom:1px solid #ccc;background-color:#f9f9f9;color:black;}
 /*Bookmark*/ 
 :root {
     --completed: #0B8043;
