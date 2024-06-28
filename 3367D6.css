@@ -1,0 +1,34 @@
+/*Bookmark*/ 
+:root {
+    --completed: #0B8043;
+    --dropped: #0c70de;
+    --ongoing: #3367D6;
+}
+.clearAll{font-size:12px;color:white;background:#7b1fa2;padding:2px 12px;border-radius:4px;cursor:pointer;}
+.clearAll:hover{background:#921925;}
+.notice{background:#ffffcc;padding:5px 8px;border-radius:3px;margin-bottom:8px;border-left: 6px solid #ffeb3b;}
+.empty-bookmark{display: block;text-align-last: center;}.gta-hpm h1{grid-area:h;}
+.mark{grid-area:m;padding:5px;border-radius:.3rem;margin-bottom:1.66rem;}
+.gta-hpm{display:grid;grid-template-areas:"h""m";gap:25px;}
+.bsx img{width:150px;aspect-ratio:3/4;object-fit:cover;border-radius:2px;}
+.boxy{display:grid;grid-template-columns:1fr auto;grid-template-areas:"l r";padding:5px;outline: solid 2px whitesmoke;}
+.side-menu img{width:100%;}
+.side-menu ul{background:#1c1c1c;padding:15px;border-radius:.3rem;margin-bottom:1.66rem;list-style:none;}
+.side-menu .menu li a{display:block;padding:8px 20px;border-radius:.3rem;margin:3px 0;color:#ababab;}
+.side-menu .menu li a:hover{background:#292929;}
+.boxy:nth-child(2n-1){background:rgb(0 0 0 / 2%);}
+.bsx a{grid-area:j; display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
+.typez{grid-area:t;}
+.bt{grid-area:s;}
+.bsx img{grid-area:i;overflow:hidden;}
+.btnRemove{grid-area:r;cursor:pointer;display:inline-flex;align-items:center;margin:auto;position:absolute;cursor: pointer;display:none;font-weight:900}
+.boxy:hover .btnRemove {display: block;}
+.bsx{display:grid;grid-template-areas:"i j j""i t s";grid-template-columns:auto auto 1fr;column-gap:10px;grid-area:l;align-items:center;}
+@media screen and (max-width:340px){.bsx{grid-template-areas:"i j j" "i t t" "i s s";}}
+.epx{background-color:var(--primary-color); color:#212121; padding:5px; border-radius:3px; font-size:.8em; -webkit-transition:all .15s; -moz-transition:all .15s; transition:all .15s; color:white;}
+.btnRemove svg {background-color:var(--d111);color:#fff; padding:5px;width: 35px; height: 35px;border-radius:100%;}
+.Pillbutton{background-color:#ddd;border:none;color:black;padding:10px 20px;text-align:center;text-decoration:none;display:inline-block;margin:4px 2px;cursor:pointer;border-radius:16px;}
+.Pillbutton:hover{background-color:#f1f1f1;}
+span.epx.Completed{background-color:var(--completed);}
+span.epx.Dropped{background-color:var(--dropped);}
+span.epx.Ongoing{background-color:var(--ongoing);}
