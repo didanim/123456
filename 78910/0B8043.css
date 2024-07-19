@@ -36,7 +36,6 @@ strong.rcent-tt{position:absolute;bottom:0;width:100%;box-sizing:border-box;back
 h3.rcent-ttl{font-size:14px;text-align:left;font-weight:500;height:auto;margin:0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;text-overflow:ellipsis;overflow:hidden;color:#fff}
 .rcent-inf{border-top:1px solid rgba(255,255,255,.5);margin-top:10px;padding-top:10px;font-size:12px;display:block}
 .boxy:hover .btnRemove {display: block;}
-.epx{background-color:var(--primary-color); color:#212121; padding:5px; border-radius:3px; font-size:.8em; -webkit-transition:all .15s; -moz-transition:all .15s; transition:all .15s; color:white;}
 .Pillbutton{background-color:#ddd;border:none;color:black;padding:10px 20px;text-align:center;text-decoration:none;display:inline-block;margin:4px 2px;cursor:pointer;border-radius:16px;}
 .Pillbutton:hover{background-color:#f1f1f1;}
 span.epx.Completed{background-color:var(--completed);}
