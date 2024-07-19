@@ -27,7 +27,7 @@ span#currentPage1,span#currentPage2{height:35px;font-size:13px;padding:6px 12px;
 .mark{grid-area:m;padding:5px;border-radius:.3rem;margin-bottom:1.66rem;}
 .gta-hpm{display:grid;grid-template-areas:"h""m";gap:25px;}
 .showBookmark{overflow:hidden;display:flex;flex-wrap:wrap;padding:10px}
-.boxy{padding:0 15px 15px;flex:25%;-webkit-flex:25%;-ms-flex:25%;margin-bottom:10px;overflow:hidden;max-width:25%}
+.boxy{padding:0 5px 15px;flex:25%;-webkit-flex:25%;-ms-flex:25%;margin-bottom:10px;overflow:hidden;max-width:25%}
 .rcent-block{padding-top:137%;position:relative;display:block;overflow:hidden}
 img.rct-thumb{position:absolute;top:0;left:0;right:0;width:100%;height:100%;object-fit:cover}
 .btnRemove{cursor:pointer;display:none;font-weight:900;position:absolute;top:5px;right:5px}
