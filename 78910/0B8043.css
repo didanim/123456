@@ -17,7 +17,7 @@ span#currentPage1,span#currentPage2{height:35px;font-size:13px;padding:6px 12px;
 /*Bookmark*/ 
 :root {
     --completed: #0B8043;
-    --dropped: #eb0520;
+    --dropped: #B51200;
     --ongoing: #3367D6;
 }
 .clearAll{font-size:12px;color:white;background:#7b1fa2;padding:2px 12px;border-radius:4px;cursor:pointer;}
